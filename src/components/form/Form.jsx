@@ -13,9 +13,9 @@ function Form(props) {
         e.preventDefault()
         const newTask = {
             id: nanoid(),
-            name: name,
-            description: description,
-            priorite: priorite,
+            name,
+            description,
+            priorite,
             fini: false
         }
         onAddTask(newTask)

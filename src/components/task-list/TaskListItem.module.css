@@ -1,0 +1,22 @@
+.taskContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    width: 400px;
+    margin-bottom: 5px;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.finished {
+    background-color: gray;
+}
+
+.red {
+    color: red;
+}
